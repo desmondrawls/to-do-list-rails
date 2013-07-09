@@ -1,0 +1,7 @@
+<h1><%= @item.name %></h1>
+
+<ul>
+
+  <%=@item.lists.collect{|item| item.name}.to_sentence%>
+
+</ul>
